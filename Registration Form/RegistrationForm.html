@@ -4,40 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RegistrationForm</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Registration Form</h2>
+    <h2 style="text-align: center; font-family: Arial; text-decoration: underline;">Registration Form</h2>
     <br>
 
-    <form action="">
+    <form class="form" action="">
         <div>
             <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="YourName">
+            <input  type="text" id="fname" name="fname" placeholder="YourName" required>
         </div>
         <br>
         <div>
             <label for="lname" >Last Name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Surname">
+            <input type="text" id="lname" name="lname" placeholder="Surname" required>
         </div>
         <br>
          <div>
             <label for="email" >Email:</label>
-            <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
         </div>
         <br>
          <div>
             <label for="password" >Password:</label>
-            <input type="password" id="password" name="password" placeholder="a-z 0-9 @_">
+            <input type="password" id="password" name="password" placeholder="a-z 0-9 @_" required>
         </div>
         <br>
         
-        <div>
+        <div id="gender">
             <label for="Gender">Gender:</label>
             <label for="Male">Male</label>
-            <input type="radio" value="Male" id="Male" name="Gender">
+            <input type="radio" value="Male" id="Male" name="Male" required>
             <label for="Female">Female</label>
-            <input type="radio" id="Female" value="Female"  name="Gender">
+            <input type="radio" id="Female" value="Female"  name="Female" required>
         </div>
         <br>
         <div>

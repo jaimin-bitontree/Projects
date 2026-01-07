@@ -1,0 +1,22 @@
+label{
+    margin-left: 10px;
+    font-weight: 200;
+    font-weight: bold;
+    padding-right: 5px;
+}
+button{
+    background-color: lightgoldenrodyellow;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    margin-left:10px ;
+}
+input{
+    border-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+#gender{
+ display: flex;
+ align-items: center;
+}
