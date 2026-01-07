@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+
+}
+@media (min-width:500px) and (max-width:900px){
+    body{
+        background-color: orange;
+    }
+}
